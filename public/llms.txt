@@ -1,47 +1,67 @@
-# Business — Generative Engine Optimization Map
+# מאור שיפוצים — Generative Engine Optimization Map
+
+> A renovation and home improvement business specializing in bathroom renovations, apartment renovations, apartment painting, and wall plastering (spackle/skim coating). The business covers a wide range of interior renovation services, from structural improvements to finishing touches, catering to homeowners looking to upgrade or refresh their living spaces.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://maor-shiffutzim.zappy5.app
 מאור שיפוצים מתמחה בשיפוץ חדר אמבטיה, צביעת דירות ושיפוץ דירה בתל אביב. איכות ללא פשרות, מחירים הוגנים ותוצאות שיהפכו כל חלל לחדש לגמרי. צרו קשר עוד היום!
 
 ### שירותים
-https://example.com/services
+https://maor-shiffutzim.zappy5.app/services
 גלו את מגוון שירותי השיפוץ שלנו: שיפוץ חדר אמבטיה, טיח וספקל, צביעת חדר מדרגות וצביעת דירות מקצועית. פתרון שלם לכל צורכי השיפוץ שלכם תחת קורת גג אחת.
 
 ### אודות
-https://example.com/about
+https://maor-shiffutzim.zappy5.app/about
 מאור שיפוצים — ניסיון עשיר, אמינות מוכחת ואהבה אמיתית למלאכה. אנו מביאים מומחיות בשיפוץ דירה בתל אביב וברחבי הארץ, עם תשומת לב לכל פרט ומחויבות לשביעות רצון מלאה.
 
 ### צור קשר
-https://example.com/contact
+https://maor-shiffutzim.zappy5.app/contact
 רוצים לשפץ את חדר האמבטיה או לצבוע את הדירה? צרו קשר עם מאור שיפוצים עוד היום וקבלו הצעת מחיר מותאמת אישית, ללא עלות וללא התחייבות. אנחנו כאן בשבילכם!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://maor-shiffutzim.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://maor-shiffutzim.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://maor-shiffutzim.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About מאור שיפוצים
+A renovation and home improvement business specializing in bathroom renovations, apartment renovations, apartment painting, and wall plastering (spackle/skim coating). The business covers a wide range of interior renovation services, from structural improvements to finishing touches, catering to homeowners looking to upgrade or refresh their living spaces.
+
+## Services/Products
+- שיפוץ חדר אמבטיה
+- שיפוץ דירות
+- צביעת דירות
+- שפכטל לקירות
+
+## Target Audience
+- בעלי בתים ראשונים
+- בעלי בתים יוקרתיים
+- משקיעי נדל"ן
+- בעלי משרדים קטנים
+- פנסיונרים לשיפוץ בית
+
+## Industry
+שיפוצים ועיצוב פנים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://maor-shiffutzim.zappy5.app/sitemap.xml
+- **Robots.txt**: https://maor-shiffutzim.zappy5.app/robots.txt
