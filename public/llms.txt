@@ -1,6 +1,4 @@
-# מאור שיפוצים — Generative Engine Optimization Map
-
-> A renovation and home improvement business specializing in bathroom renovations, apartment renovations, apartment painting, and wall plastering (spackle/skim coating). The business covers a wide range of interior renovation services, from structural improvements to finishing touches, catering to homeowners looking to upgrade or refresh their living spaces.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,25 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מאור שיפוצים
-A renovation and home improvement business specializing in bathroom renovations, apartment renovations, apartment painting, and wall plastering (spackle/skim coating). The business covers a wide range of interior renovation services, from structural improvements to finishing touches, catering to homeowners looking to upgrade or refresh their living spaces.
-
-## Services/Products
-- שיפוץ חדר אמבטיה
-- שיפוץ דירות
-- צביעת דירות
-- שפכטל לקירות
-
-## Target Audience
-- בעלי בתים ראשונים
-- בעלי בתים יוקרתיים
-- משקיעי נדל"ן
-- בעלי משרדים קטנים
-- פנסיונרים לשיפוץ בית
-
-## Industry
-שיפוצים ועיצוב פנים
-
+## About Business
 ---
 
 # Additional Resources
