@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+מאור שיפוצים מתמחה בשיפוץ חדר אמבטיה, צביעת דירות ושיפוץ דירה בתל אביב. איכות ללא פשרות, מחירים הוגנים ותוצאות שיהפכו כל חלל לחדש לגמרי. צרו קשר עוד היום!
+
+### שירותים
+https://example.com/services
+גלו את מגוון שירותי השיפוץ שלנו: שיפוץ חדר אמבטיה, טיח וספקל, צביעת חדר מדרגות וצביעת דירות מקצועית. פתרון שלם לכל צורכי השיפוץ שלכם תחת קורת גג אחת.
+
+### אודות
+https://example.com/about
+מאור שיפוצים — ניסיון עשיר, אמינות מוכחת ואהבה אמיתית למלאכה. אנו מביאים מומחיות בשיפוץ דירה בתל אביב וברחבי הארץ, עם תשומת לב לכל פרט ומחויבות לשביעות רצון מלאה.
+
+### צור קשר
+https://example.com/contact
+רוצים לשפץ את חדר האמבטיה או לצבוע את הדירה? צרו קשר עם מאור שיפוצים עוד היום וקבלו הצעת מחיר מותאמת אישית, ללא עלות וללא התחייבות. אנחנו כאן בשבילכם!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
