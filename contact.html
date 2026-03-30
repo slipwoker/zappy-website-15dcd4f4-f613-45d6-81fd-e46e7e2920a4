@@ -238,7 +238,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -333,7 +333,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="050-0000000" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0559932287" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -342,7 +342,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="מאור שיפוצים" class="logo" />
+        <img src="/assets/business-logo.webp" alt="מאור שיפוצים" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a></li></ul></div>
 
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0559932287';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -858,7 +858,7 @@
             </span>
             <div class="ccd-contact-content">
               <span class="ccd-contact-label">טלפון</span>
-              <a href="tel:[business_phone]" class="ccd-contact-value">[business_phone]</a>
+              <a href="tel:0559932287" class="ccd-contact-value">0559932287</a>
             </div>
           </li>
 
@@ -868,7 +868,7 @@
             </span>
             <div class="ccd-contact-content">
               <span class="ccd-contact-label">אימייל</span>
-              <a href="mailto:[business_email]" class="ccd-contact-value">[business_email]</a>
+              <a href="mailto:galitdrori3@gmail.com" class="ccd-contact-value">galitdrori3@gmail.com</a>
             </div>
           </li>
 
@@ -878,7 +878,7 @@
             </span>
             <div class="ccd-contact-content">
               <span class="ccd-contact-label">כתובת</span>
-              <span class="ccd-contact-value">[business_address]</span>
+              <span class="ccd-contact-value">ראשון לציון, ישראל, 7561711, ישראל</span>
             </div>
           </li>
 
@@ -896,13 +896,13 @@
         <div class="ccd-social-row">
           <span class="ccd-social-label">עקבו אחרינו:</span>
           <div class="ccd-social-links">
-            <a href="https://wa.me/[whatsapp_handle]" class="ccd-social-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <a href="#" class="ccd-social-btn" target="_blank" rel="noopener" aria-label="WhatsApp" style="display:none !important;">
               <i class="fab fa-whatsapp"></i>
             </a>
-            <a href="https://instagram.com/[instagram_handle]" class="ccd-social-btn" target="_blank" rel="noopener" aria-label="Instagram">
+            <a href="#" class="ccd-social-btn" target="_blank" rel="noopener" aria-label="Instagram" style="display:none !important;">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://facebook.com/[facebook_handle]" class="ccd-social-btn" target="_blank" rel="noopener" aria-label="Facebook">
+            <a href="#" class="ccd-social-btn" target="_blank" rel="noopener" aria-label="Facebook" style="display:none !important;">
               <i class="fab fa-facebook-f"></i>
             </a>
           </div>
@@ -957,7 +957,7 @@
           </div>
         </div>
 
-        <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener" class="ccd-map-btn">
+        <a href="https://maps.google.com/?q=ראשון לציון, ישראל, 7561711, ישראל" target="_blank" rel="noopener" class="ccd-map-btn" style="display:flex;align-items:flex-start;gap:inherit">
           <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
           <span>צפו במפה</span>
         </a>
@@ -996,12 +996,7 @@
           <div class="csas-card-content">
             <h3 class="csas-card-title">אזורי הפעילות שלנו</h3>
             <p class="csas-card-desc">אנו פועלים בתל אביב, רמת גן, גבעתיים, פתח תקווה, חולון, בת ים, ראשון לציון ובערים נוספות במרכז הארץ. לפרויקטים מיוחדים — נשמח לדון גם על אזורים אחרים.</p>
-            <ul class="csas-location-list">
-              <li><span class="csas-dot"></span>תל אביב והסביבה</li>
-              <li><span class="csas-dot"></span>גוש דן</li>
-              <li><span class="csas-dot"></span>ראשון לציון ורחובות</li>
-              <li><span class="csas-dot"></span>פתח תקווה וסביבותיה</li>
-            </ul>
+            <ul class="csas-location-list">ראשון לציון, ישראל, 7561711, ישראל</ul>
           </div>
         </div>
       </article>
@@ -1147,17 +1142,17 @@
     <div class="ccf-info-strip">
       <div class="ccf-info-item">
         <span class="ccf-info-icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-        <span class="ccf-info-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+        <span class="ccf-info-text"><a href="tel:0559932287">0559932287</a></span>
       </div>
       <div class="ccf-info-divider"></div>
       <div class="ccf-info-item">
         <span class="ccf-info-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-        <span class="ccf-info-text"><a href="mailto:[business_email]">[business_email]</a></span>
+        <span class="ccf-info-text"><a href="mailto:galitdrori3@gmail.com">galitdrori3@gmail.com</a></span>
       </div>
       <div class="ccf-info-divider"></div>
       <div class="ccf-info-item">
         <span class="ccf-info-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-        <span class="ccf-info-text">[business_address]</span>
+        <span class="ccf-info-text">ראשון לציון, ישראל, 7561711, ישראל</span>
       </div>
     </div>
 
@@ -1171,13 +1166,13 @@
       <!-- Column 1: Company Info -->
       <div class="footer-col footer-brand">
         <div class="footer-logo-wrap">
-          <img src="/assets/business-logo.webp" alt="מאור שיפוצים" class="logo" />
+          <img src="/assets/business-logo.webp" alt="מאור שיפוצים" class="logo">
         </div>
         <p class="footer-tagline">שיפוצים ועיצוב פנים ברמה הגבוהה ביותר — כאשר מלאכת יד הופכת לאמנות.</p>
         <div class="footer-social">
-          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
 
@@ -1197,14 +1192,14 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:galitdrori3@gmail.com">galitdrori3@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0559932287">0559932287</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">ראשון לציון, ישראל, 7561711, ישראל</span></a></li>
         </ul>
       </div>
 
